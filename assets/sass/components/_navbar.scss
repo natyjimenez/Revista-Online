@@ -1,0 +1,42 @@
+.navbar__nav {
+    width: 100%;
+}
+.navbar__logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar__nosotros {
+    display: none;
+}
+.navbar__contacto {
+    padding-right: 0.3125rem;
+}
+.navbar__nav ul {
+    padding-left: 2.5rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .navbar__nosotros {
+        display: block;    
+    }
+    .navbar__nav ul {
+        padding-left: 40%;
+    }
+}
+@media (min-width: 992px) {
+    .navbar__nosotros {
+        display: block;    
+    }
+    .navbar__nav ul {
+        padding-left:65%;
+    }
+}
